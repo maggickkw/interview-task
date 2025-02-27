@@ -1,0 +1,140 @@
+{
+    "categories": [
+      { "id": 1, "name": "All", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" },
+        { "id": 2, "name": "Sea food", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" },
+        { "id": 3, "name": "Fast food", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" },
+        { "id": 4, "name": "Drinks", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" },
+        { "id": 5, "name": "Desserts", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" },
+        { "id": 6, "name": "Vegetarian", "icon": "https://w7.pngwing.com/pngs/54/394/png-transparent-variety-of-fruits-in-basket-basket-of-fruit-food-gift-baskets-hamper-fruit-miscellaneous-natural-foods-food.png" }
+    ],
+    "popularItems": [
+        {
+          "id": 1,
+          "name": "Cheese Hot Pizza",
+          "image": "https://img.freepik.com/free-photo/side-view-pizza-with-slices-bell-pepper-pizza-slices-flour-board-cookware_176474-3185.jpg?t=st=1740574676~exp=1740578276~hmac=35fe52842d9f00d3e0adadfc3780e0dd96786b62baf871efd5f87db98112b1af&w=900",
+          "price": 12.99,
+          "rating":4.8
+        },
+        {
+          "id": 2,
+          "name": "Hamburger",
+          "image": "https://img.freepik.com/free-photo/huge-burger-with-fried-meat-vegetables_140725-971.jpg?t=st=1740574750~exp=1740578350~hmac=790b159c7c5c2f9f333f75f8359816b56403a20aa4a90b9f2751351167ae443e&w=740",
+          "price": 8.99,
+          "rating":4.2
+        },
+        {"id": 4,
+        "name": "Chocolate cake",
+        "image": "https://img.freepik.com/free-photo/chocolate-brownie-cake-with-scoop-ice-cream_155003-433.jpg?t=st=1740580389~exp=1740583989~hmac=57b779205f50ad6d292705023da6bd3bd2e8310d76151f2691f76b19c434050e&w=740",
+        "price": 12.99,
+        "rating":3.2
+      },
+      {
+        "id": 3,
+        "name": "Chocolate frappuccino",
+        "image": "https://img.freepik.com/free-photo/chocolate-frappuccino-table_140725-8217.jpg?t=st=1740580824~exp=1740584424~hmac=190343e70e2eb674617e1ad7fe25c4babdaea88932d51db238fd61553ff899c6&w=740",
+        "price": 4.90,
+        "rating":5.0
+      }
+      ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Cheese Hot Hamburger",
+        "category_id": 2,
+        "price": 8.99,
+        "rating": 5.0,
+        "reviews": 3800,
+        "image": "cheese_hot_hamburger.jpg",
+        "description": "A juicy cheeseburger with fresh lettuce, tomatoes, and signature sauce.",
+        "ingredients": ["Beef Patty", "Cheese", "Lettuce", "Tomato", "Bun", "Signature Sauce"],
+        "extraIngredients": [
+          { "name": "Mushroom", "price": 0.50 },
+          { "name": "Mayonnaise", "price": 0.20 },
+          { "name": "Peeled Boiled Egg", "price": 1.00 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Italian Hot Pizza",
+        "category_id": 5,
+        "price": 13.99,
+        "rating": 4.8,
+        "reviews": 2200,
+        "image": "https://img.freepik.com/free-photo/mix-pizza-with-tomato-slices-mushroom-olive_140725-185.jpg?t=st=1740574845~exp=1740578445~hmac=7eaf7b41af23fbf7e78e0bbc98cc1c2b5dd2fed2a3fd4d1eb6d2f812b9204cca&w=740",
+        "description": "Classic Italian pizza with pepperoni, olives, and fresh basil.",
+        "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni", "Olives", "Basil"],
+        "extraIngredients": [
+          { "name": "Extra Cheese", "price": 1.50 },
+          { "name": "Spicy Peppers", "price": 0.75 },
+          { "name": "Olives", "price": 0.50 }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Grilled Salmon",
+        "category_id": 2,
+        "price": 15.99,
+        "rating": 4.7,
+        "reviews": 1500,
+        "image": "https://img.freepik.com/free-photo/grilled-fish-close-up-decorated-with-vegetables_1303-12328.jpg?t=st=1740574880~exp=1740578480~hmac=12d5da66a7ef4f76be72060ce64ba7b09368c7e56c63a2f44d713e7a7cbd61d5&w=1380",
+        "description": "Delicious grilled salmon served with lemon butter sauce.",
+        "ingredients": ["Salmon", "Lemon", "Butter", "Garlic", "Herbs"],
+        "extraIngredients": [
+          { "name": "Extra Lemon", "price": 0.30 },
+          { "name": "Garlic Butter", "price": 0.75 }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Avocado Salad",
+        "category_id": 6,
+        "price": 9.99,
+        "rating": 4.9,
+        "reviews": 900,
+        "image": "https://img.freepik.com/free-photo/healthy-garnished-salad-against-isolated-white-background_23-2148026940.jpg?t=st=1740574951~exp=1740578551~hmac=52dde292e2e5e84cbf077b61697a6bd0f59a3c033b108a62d46ffd3bf3e23e46&w=900",
+        "description": "Fresh avocado salad with cherry tomatoes and olive oil.",
+        "ingredients": ["Avocado", "Cherry Tomatoes", "Olive Oil", "Lettuce", "Lemon Juice"],
+        "extraIngredients": [
+          { "name": "Extra Avocado", "price": 1.50 },
+          { "name": "Feta Cheese", "price": 1.00 }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Cake",
+        "category_id": 5,
+        "price": 6.99,
+        "rating": 4.8,
+        "reviews": 1200,
+        "image": "https://img.freepik.com/free-photo/chocolate-brownie-cake-with-scoop-ice-cream_155003-433.jpg?t=st=1740586207~exp=1740589807~hmac=55fe82a30303ec5cb28dc73b4d18401ce2860f3a92327a1873874d3a5da6e6a7&w=740",
+        "description": "Rich and moist chocolate cake topped with creamy chocolate frosting.",
+        "ingredients": ["Flour", "Cocoa Powder", "Eggs", "Butter", "Sugar"],
+        "extraIngredients": [
+          { "name": "Extra Frosting", "price": 0.50 },
+          { "name": "Chopped Nuts", "price": 0.75 }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Strawberry Milkshake",
+        "category_id": 4,
+        "price": 5.49,
+        "rating": 4.6,
+        "reviews": 850,
+        "image": "https://img.freepik.com/free-photo/strawberry-milkshake-with-whipped-milk_140725-1232.jpg?t=st=1740585892~exp=1740589492~hmac=5bffadc7c94d04d32868ff7abe04af985e54ec3a9229aa05b8063923005747a0&w=740",
+        "description": "Creamy strawberry milkshake made with fresh strawberries and vanilla ice cream.",
+        "ingredients": ["Strawberries", "Milk", "Vanilla Ice Cream", "Sugar"],
+        "extraIngredients": [
+          { "name": "Whipped Cream", "price": 0.50 },
+          { "name": "Chocolate Syrup", "price": 0.50 }
+        ]
+      }
+    ],
+    "cart": [
+     
+    ],
+    "checkout": {
+     
+    }
+  }
+  
