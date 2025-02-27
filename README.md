@@ -71,7 +71,7 @@ If you encounter network issues while runing the app on Windows PC, check your l
 to check your ip address on windows
 
 ```sh
-# Using your terminal
+# Using command prompt
 ipconfig -all
 
 ```

@@ -1,4 +1,4 @@
-import {Pressable, StyleSheet, Text, View} from 'react-native';
+import {Pressable, Text, View} from 'react-native';
 import React from 'react';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {colors} from '../resources/colors';
@@ -20,7 +20,7 @@ const CartNavicon = () => {
   };
 
   return (
-    <View>
+    <>
       {!!cart?.length && (
         <View
           style={{
@@ -69,10 +69,8 @@ const CartNavicon = () => {
           size={hp(24)}
         />
       </Pressable>
-    </View>
+    </>
   );
 };
 
 export default CartNavicon;
-
-const styles = StyleSheet.create({});

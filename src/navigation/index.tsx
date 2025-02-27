@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {rootStackParams} from '../types/navigation';
-import {SCREEN_NAME} from './constant';
-import {useAppSelector} from '../store';
-import Onboarding from '../screens/onboard-screen';
-import MainTab from './bottomNav';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react';
 import Cart from '../screens/Cart-screen';
+import Onboarding from '../screens/onboard-screen';
 import Product from '../screens/Product-Screen';
+import { rootStackParams } from '../types/navigation';
+import MainTab from './bottomNav';
+import { SCREEN_NAME } from './constant';
 
 const {Navigator, Screen, Group} =
   createNativeStackNavigator<rootStackParams>();

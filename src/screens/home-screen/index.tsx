@@ -1,22 +1,22 @@
-import {FlatList, ScrollView, Text, TouchableOpacity, View} from 'react-native';
-import React, {useState} from 'react';
-import styles from './styles';
+import React, { useState } from 'react';
+import { FlatList, Platform, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {colors} from '../../resources/colors';
-import {hp} from '../../resources/config';
-import {useSafeAreaInsets} from 'react-native-safe-area-context';
+import Catogory from '../../components/Category';
+import PopularItem from '../../components/PopularItem';
+import Product from '../../components/ProductItem';
+import { colors } from '../../resources/colors';
+import { hp } from '../../resources/config';
 import {
   useGetCategories,
   useGetPopularItems,
   useGetProducts,
 } from '../../services/queries';
-import {categoryT, popularT, productT} from '../../types/product.type';
-import Catogory from '../../components/Category';
-import {globalStyles} from '../../styles/globalStyles';
-import PopularItem from '../../components/PopularItem';
-import Product from '../../components/ProductItem';
+import { globalStyles } from '../../styles/globalStyles';
+import { categoryT, popularT, productT } from '../../types/product.type';
+import styles from './styles';
 
 const Home = () => {
   const {top} = useSafeAreaInsets();
@@ -43,7 +43,7 @@ const Home = () => {
   } = useGetProducts();
 
   return (
-    <View style={[globalStyles.container, styles.container, {paddingTop: top}]}>
+    <View style={[globalStyles.container, styles.container, {paddingTop: Platform.OS === 'ios' ? top : hp(15)}]}>
       <View style={styles.searchContainer}>
         <View style={styles.SearchWrapper}>
           <View style={styles.itemSearchWrapper}>

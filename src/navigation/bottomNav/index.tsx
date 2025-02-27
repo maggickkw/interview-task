@@ -1,17 +1,17 @@
-import {StyleSheet, Text, View} from 'react-native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
-import {SCREEN_NAME} from '../constant';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Home from '../../screens/home-screen';
-import BlankScreen from '../../components/BlankScreen';
-import {BottomMenuParams} from '../../types/navigation';
-import {hp, SCREEN_WIDTH} from '../../resources/config';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { StyleSheet } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {colors} from '../../resources/colors';
-import TabItemContainer from '../../components/TabItemContainer';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import BlankScreen from '../../components/BlankScreen';
 import CartNavicon from '../../components/CartNavicon';
+import TabItemContainer from '../../components/TabItemContainer';
+import { colors } from '../../resources/colors';
+import { hp, SCREEN_WIDTH } from '../../resources/config';
+import Home from '../../screens/home-screen';
+import { BottomMenuParams } from '../../types/navigation';
+import { SCREEN_NAME } from '../constant';
 
 const {Navigator, Screen} = createBottomTabNavigator<BottomMenuParams>();
 

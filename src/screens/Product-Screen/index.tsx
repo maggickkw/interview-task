@@ -132,7 +132,7 @@ const Product = () => {
 
             <View style={styles.extIngcontainer}>
               {product?.extraIngredients?.map((exIn, ind) => (
-                <View style={styles.extIngItem}>
+                <View key={`ind-${ind}`} style={styles.extIngItem}>
                   <Text>{exIn?.name}</Text>
                   <Text>${exIn?.price}</Text>
                 </View>
