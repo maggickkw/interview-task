@@ -3,7 +3,7 @@ import  Axios,{ AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 
 
 
-const baseUrl='http://localhost:3000'
+const baseUrl ='http://localhost:3000'
 
 export async function client(
     endPoint: string,

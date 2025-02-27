@@ -44,7 +44,7 @@
         "price": 8.99,
         "rating": 5.0,
         "reviews": 3800,
-        "image": "cheese_hot_hamburger.jpg",
+        "image": "https://img.freepik.com/free-photo/huge-burger-with-fried-meat-vegetables_140725-971.jpg?t=st=1740574750~exp=1740578350~hmac=790b159c7c5c2f9f333f75f8359816b56403a20aa4a90b9f2751351167ae443e&w=740",
         "description": "A juicy cheeseburger with fresh lettuce, tomatoes, and signature sauce.",
         "ingredients": ["Beef Patty", "Cheese", "Lettuce", "Tomato", "Bun", "Signature Sauce"],
         "extraIngredients": [
